@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  },
+  "name": "new-folder-(3)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.11"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
